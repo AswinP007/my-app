@@ -1,0 +1,19 @@
+run:
+  modules-download-mode: vendor
+
+linters:
+  enable:
+    - deadcode
+    - errcheck
+    - gosimple
+    - govet
+    - ineffassign
+    - staticcheck
+    - structcheck
+    - typecheck
+    - unused
+    - varcheck
+
+linters-settings:
+  govet:
+    check-shadowing: true
